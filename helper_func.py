@@ -62,7 +62,7 @@ async def subsgroup(filter, client, update):
 async def is_subscribed(filter, client, update):
     if not FORCE_SUB_CHANNEL:
         return True
-    if not FORCE_SUB_CHANNEL1l:
+    if not FORCE_SUB_CHANNEL1:
         return True
     if not FORCE_SUB_GROUP:
         return True
